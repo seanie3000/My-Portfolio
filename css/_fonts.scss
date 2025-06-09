@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "monument-extend";
+  src: url(/font/Monument-Extended-Regular.woff) format("woff"), url(/font/Monument-Extended-Regular.woff2) format("woff2"),
+    url(/font/Monument-Extended-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monument-extend";
+  src: url(/font/Monument-Extended-Ultrabold.woff) format("woff"), url(/font/Monument-Extended-Ultrabold.woff2) format("woff2"),
+    url(/font/Monument-Extended-Ultrabold.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue-Montreal";
+  src: url(/font/Neue-Montreal-Regular.woff) format("woff"), url(/font/Neue-Montreal-Regular.woff2) format("woff2"),
+    url(/font/Neue-Montreal-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue-Montreal";
+  src: url(/font/Neue-Montreal-Bold.woff) format("woff"), url(/font/Neue-Montreal-Bold.woff2) format("woff2"),
+    url(/font/Neue-Montreal-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+:root {
+  --font-primary: "monument-extend";
+  --font-secondary: "Neue-Montreal";
+}
