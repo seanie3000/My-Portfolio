@@ -7,7 +7,7 @@ A responsive portfolio website built using Vanilla HTML, CSS, and JavaScript.
 - Clean UI
 
 ## 🔗 Live Demo
-[Click here to view](https://seanie3000.github.io/My-Portfolio/)
+[Click here to view](https://seandequina.netlify.app/)
 
 ## 💻 Tech Stack
 - HTML5
