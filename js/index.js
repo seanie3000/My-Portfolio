@@ -3,7 +3,7 @@ const text = [
   "LEARN",
   "CODE",
   "REPEAT.",
-  "Crafting clean and responsive websites. Guided by creativity and continuous learning, i'm committed to improving every day --",
+  "Focused on crafting responsive, well-structured websites. I’m fueled by curiosity, creativity, and a daily commitment to improving my skills. --",
 ];
 const span = document.querySelectorAll(".span");
 const cursor = document.querySelectorAll(".hero__cursor");

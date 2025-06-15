@@ -86,7 +86,9 @@ section {
   color: #636330;
   font-family: var(--font-primary);
   font-weight: normal;
-  height: 20%;
+  min-height: 3rem; /* or approximate height for 1-2 lines */
+  height: 25%;
+  font-size: 1rem;
 }
 
 /* About Section Styling */
@@ -105,7 +107,7 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1.4rem;
   border: 2px solid #fff180;
   border-radius: 0.5rem;
 }
@@ -145,6 +147,7 @@ section {
 .about .about__wrapper .about__content .about__profile {
   justify-self: center;
   width: 8rem;
+  border-radius: 0.5rem;
 }
 @media (min-width: 37.5rem) {
   .about .about__wrapper .about__content .about__profile {
@@ -156,6 +159,9 @@ section {
 }
 .about .about__wrapper .about__content .about__description {
   font-family: var(--font-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 @media (min-width: 37.5rem) {
   .about .about__wrapper .about__content .about__description {
@@ -171,12 +177,18 @@ section {
 .about .about__wrapper .about__content .about__socials {
   color: #fff180;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 0.5rem;
+}
+.about .about__wrapper .about__content .about__socials .about__social-links {
+  display: flex;
   gap: 1rem;
 }
 @media (min-width: 37.5rem) {
   .about .about__wrapper .about__content .about__socials {
     grid-column: 4/8;
+    flex-direction: row;
   }
 }
 
